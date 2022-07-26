@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" defer src="./src/index.js"></script>
+    <title>Battleship Game</title>
+  </head>
+
+  <body>
+    <main>
+      <header class="header">
+        <h1>BATTLESHIP</h1>
+      </header>
+      <div class="output-field"></div>
+
+      <nav class="intro-sidebar">
+        <h2>Place Your Ships</h2>
+        <ul>
+          <li class="carrier-container">
+            <h2 class="ship-val">1</h2>
+            <div class="draggable carrier" draggable="true">
+              <div class="square"></div>
+              <div class="square"></div>
+              <div class="square"></div>
+              <div class="square"></div>
+              <div class="square"></div>
+            </div>
+          </li>
+          <li class="battleship-container">
+            <h2 class="ship-val"></h2>
+            <div class="draggable battleship" draggable="true">
+              <div class="square"></div>
+              <div class="square"></div>
+              <div class="square"></div>
+              <div class="square"></div>
+            </div>
+          </li>
+          <li class="destroyer-container">
+            <h2 class="ship-val"></h2>
+            <div class="draggable destroyer" draggable="true">
+              <div class="square"></div>
+              <div class="square"></div>
+              <div class="square"></div>
+            </div>
+          </li>
+          <li class="patrol-container">
+            <h2 class="ship-val"></h2>
+            <div class="draggable patrol" draggable="true">
+              <div class="square"></div>
+              <div class="square"></div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="gameboards-container">
+        <div class="gameboard player-board"></div>
+        <div class="gameboard computer-board"></div>
+      </div>
+    </main>
+  </body>
+</html>
