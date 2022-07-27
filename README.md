@@ -1,1 +1,1 @@
-BattleShip-Game-Project With Help og HTML CSS and JAVASCRIPT
+BattleShip-Game-Project With Help of HTML CSS and JAVASCRIPT
